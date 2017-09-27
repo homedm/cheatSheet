@@ -7,17 +7,17 @@
 
 scriptencoding utf-8
 
-if exists("g:loaded_cheatSheet-vim")
+if exists("g:loaded_cheatSheet")
   finish
 endif
-let g:loaded_cheatSheet-vim=1
+let g:loaded_cheatSheet=1
 
 let s:save_cpo= &cpo
 set cpo&vim
 
 " vim script
 "ここにはキーマップや、コマンドの定義を書く
-call cheatSheet-vim#main()
+call cheatSheet#main()
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
