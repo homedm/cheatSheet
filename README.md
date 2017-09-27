@@ -20,4 +20,4 @@ If you use NeoBundle
 NeoBundle 'homedm/cheatSheet'
 
 #screen shot
-![normal mode](.\sample.png)
+![normal mode](https://github.com/homedm/cheatSheet/blob/master/sample.png)
