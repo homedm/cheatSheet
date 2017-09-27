@@ -23,7 +23,7 @@ function! cheatSheet#makeCheatSheet()
 
   if (mode=="n")
     "ノーマルモード
-    let s:cheatSheet_line="i, a=insert mode, j=down k=up h=left l=right x=delete under cursor, y{motion}=yank, u=undo, ^r=redo, :=enter command"
+    let s:cheatSheet_line="i,a=insert mode, j=down k=up h=left l=right x=delete under cursor, y{motion}=yank, u=undo, ^r=redo, :w=save, :q=close"
   endif
 
   if (mode=="i")
