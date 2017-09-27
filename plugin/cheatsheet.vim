@@ -17,7 +17,7 @@ set cpo&vim
 
 " vim script
 "ここにはキーマップや、コマンドの定義を書く
-call cheatsheet#main()
+call cheatSheet#main()
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
