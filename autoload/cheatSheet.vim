@@ -7,11 +7,6 @@
 
 scriptencoding utf-8
 
-if exists("g:loaded_cheatSheet")
-  finish
-endif
-let g:loaded_cheatSheet=1
-
 let s:save_cpo= &cpo
 set cpo&vim
 
