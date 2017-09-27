@@ -7,22 +7,22 @@
 
 scriptencoding utf-8
 
-if exists("g:loaded_cheatsheet")
+if exists("g:loaded_cheatSheet-vim")
   finish
 endif
-let g:loaded_cheatsheet=1
+let g:loaded_cheatSheet-vim=1
 
 let s:save_cpo= &cpo
 set cpo&vim
 
 " vim script
-function! cheatSheet#main()
+function! cheatSheet-vim#main()
   set laststatus=2
-  set statusline=%!cheatSheet#makeCheatSheet()
+  set statusline=%!cheatSheet-vim#makeCheatSheet()
 endfunction
 
 
-function! cheatSheet#makeCheatSheet()
+function! cheatSheet-vim#makeCheatSheet()
   "Œ»İ‚Ìƒ‚[ƒh‚Å•ªŠò
   let l:mode=mode()
 
