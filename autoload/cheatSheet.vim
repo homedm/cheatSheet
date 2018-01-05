@@ -1,7 +1,7 @@
 " ====================================================
 " Vim global plugin for learning vim.
 " Last Change: 2017 Sept 26
-" Maintainer: taichi watanabe <weasel.wt@outlook.com>
+" Maintainer: taichi watanabe
 " File: cheatsheet.vim
 " ====================================================
 
